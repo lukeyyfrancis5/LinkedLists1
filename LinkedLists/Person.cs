@@ -11,7 +11,7 @@ namespace LinkedLists
     {
         public string Name;
         public int Age;
-        public string Sex;
+        public string Sex;  
         public int Height;
         public int Weight;
         public string HairColor;
@@ -53,7 +53,7 @@ namespace LinkedLists
 
             for (int i = 0; i < Position && current != null; i++)
                 current = current.next;
-            return current;
+            return current; 
         }
     }
 
